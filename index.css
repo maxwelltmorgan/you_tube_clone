@@ -63,6 +63,7 @@ h1 {
 .video-actions-list {
     padding: 5px 15px 15px 15px;
     color: grey;
+    text-align: right;
 }
 
 h3 {
@@ -73,7 +74,36 @@ h3 {
 
 .li-actions {
     display: inline-block;
-    padding-right: 15px;
+    padding-right: 5px;
+    vertical-align: top;
+}
+
+.material-icons.thumbs {
+    font-size: 16px;
+    color: #686868;
+    margin-left: 20px;
+}
+
+.thumbs {
+    color: #686868;
+    font-size: .8rem;
+    vertical-align: middle;
+}
+
+.material-icons.share {
+    font-size: 16px;
+    margin-left: 15px;
+}
+
+.share {
+    text-transform: uppercase;
+    font-size: .8rem;
+    vertical-align: middle;
+}
+
+.material-icons.playlist-add {
+    font-size: 20px;
+    margin-left: 15px;
 }
 
 .channel-list {
